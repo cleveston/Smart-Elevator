@@ -1,0 +1,5 @@
+[02:30:31] Requisição: Andar 2 -> Andar 0
+[02:30:58] Requisição: Andar 1 -> Andar 2
+[02:31:58] Requisição: Andar 1 -> Andar 0
+[02:32:26] Requisição: Andar 1 -> Andar 2
+[09:44:58] Requisição: Andar 2 -> Andar 0

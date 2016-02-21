@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Arquivos de Cabeçalho"
+                   projectFiles="true">
+      <itemPath>comunicacao.h</itemPath>
+      <itemPath>dynarray.h</itemPath>
+      <itemPath>edge.h</itemPath>
+      <itemPath>grafo.h</itemPath>
+      <itemPath>iterator.h</itemPath>
+      <itemPath>matrix.h</itemPath>
+      <itemPath>mbcommon.h</itemPath>
+      <itemPath>periodica.h</itemPath>
+      <itemPath>set.h</itemPath>
+      <itemPath>vertex.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Arquivos de Código-Fonte"
+                   projectFiles="true">
+      <itemPath>comunicacao.c</itemPath>
+      <itemPath>dynarray.c</itemPath>
+      <itemPath>edge.c</itemPath>
+      <itemPath>grafo.c</itemPath>
+      <itemPath>iterator.c</itemPath>
+      <itemPath>main.c</itemPath>
+      <itemPath>matrix.c</itemPath>
+      <itemPath>periodica.c</itemPath>
+      <itemPath>set.c</itemPath>
+      <itemPath>vertex.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Arquivos de Recurso"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Arquivos de Teste"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos Importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>log.txt</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <commandLine>-lpthread -lrt</commandLine>
+        </cTool>
+      </compileType>
+      <item path="comunicacao.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="comunicacao.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dynarray.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dynarray.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="edge.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="edge.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="grafo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iterator.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="iterator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="log.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="matrix.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="matrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mbcommon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="periodica.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="periodica.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="set.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="set.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="vertex.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="vertex.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="comunicacao.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="comunicacao.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dynarray.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dynarray.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="edge.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="edge.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="grafo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="iterator.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="iterator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="log.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="matrix.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="matrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mbcommon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="periodica.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="periodica.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="set.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="set.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="vertex.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="vertex.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
